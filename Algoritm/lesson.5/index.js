@@ -115,20 +115,20 @@
 // mutable - Arrayni o'ziga tasir ko'rsatadi.
 
 
-    //Homework 
-let students = [
-    {id: 1, ism: "Adrurahmon", yosh: 13, ball: 97},
-    {id: 2, ism: "Hayotbek", yosh: 14, ball: 82},
-    {id: 3, ism: "Ibrohim", yosh: 14, ball: 70},
-    {id: 4, ism: "Mubosher", yosh: 12, ball: 70},
-    {id: 5, ism: "Muhammadyusuf", yosh: 13, ball: 70},
-    {id: 6, ism: "Azizbek", yosh: 14, ball: 75},
-    {id: 7, ism: "Abrorbek", yosh: 14, ball: 78},
-    {id: 8, ism: "Muhammadali", yosh: 13, ball: 70},
-    {id: 9, ism: "Husanboy", yosh: 13, ball: 80},
-    {id: 10, ism: "Abubakr", yosh: 14, ball: 75},
-    {id: 11, ism: "Adbulaziz", yosh: 14, ball: 80},
-]
+//     //Homework 
+// let students = [
+//     {id: 1, ism: "Adrurahmon", yosh: 13, ball: 97},
+//     {id: 2, ism: "Hayotbek", yosh: 14, ball: 82},
+//     {id: 3, ism: "Ibrohim", yosh: 14, ball: 70},
+//     {id: 4, ism: "Mubosher", yosh: 12, ball: 70},
+//     {id: 5, ism: "Muhammadyusuf", yosh: 13, ball: 70},
+//     {id: 6, ism: "Azizbek", yosh: 14, ball: 75},
+//     {id: 7, ism: "Abrorbek", yosh: 14, ball: 78},
+//     {id: 8, ism: "Muhammadali", yosh: 13, ball: 70},
+//     {id: 9, ism: "Husanboy", yosh: 13, ball: 80},
+//     {id: 10, ism: "Abubakr", yosh: 14, ball: 75},
+//     {id: 11, ism: "Adbulaziz", yosh: 14, ball: 80},
+// ]
 
 // let qoniqarli = "A'lo darajada";
 // let qoniqarsiz = "Ko'proq xarakat qilishiz kerak"
@@ -156,17 +156,17 @@ let students = [
 
 
 // Create 
-function addStudent(student) {
-    student = {id:students.length + 1, ...student};
-    students.push(student);
-}
+// function addStudent(student) {
+//     student = {id:students.length + 1, ...student};
+//     students.push(student);
+// }
 
-addStudent({ ism: "Abdukomil", yosh: 14, ball: 50 });
-addStudent({ ism: "Muhummadami", yosh: 14, ball: 30 });
-addStudent({ ism: "Samira", yosh: 14, ball: 35 });
-addStudent({ ism: "Osimxon", yosh: 14, ball: 60 });
+// addStudent({ ism: "Abdukomil", yosh: 14, ball: 50 });
+// addStudent({ ism: "Muhummadami", yosh: 14, ball: 30 });
+// addStudent({ ism: "Samira", yosh: 14, ball: 35 });
+// addStudent({ ism: "Osimxon", yosh: 14, ball: 60 });
 
-console.log(students);
+// console.log(students);
 
 // Read
 // function getSortData(data, key) {
