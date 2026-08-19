@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-content: center;
+  font-family: sans-serif;
+  position: absolute;
+}
+
+.index {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 15%;
+  top: 30%;
+}
+
+.index2 {
+  position: absolute;
+  left: 26.6%;
+  top: 30.6%;
+}
+
+.index3 {
+  width: 80px;
+  height: 2px;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 15%;
+  top: 42%;
+}
+
+.index4 {
+  color: white;
+  font-weight: 600;
+  font-size: 55px;
+  position: absolute;
+  left: 15%;
+  top: 50%;
+}
+
+.index5 {
+  color: grey;
+  font-size: 15px;
+  position: absolute;
+  left: 15.3%;
+  top: 68%;
+}
+
+form {
+  width: 500px;
+  background-color: #212026;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  transform: translateY(-50%);
+}
+
+
+form h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+
+form .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  gap: 5px;
+  position: relative;
+}
+
+form .box label {
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+}
+
+form .box input {
+  padding: 15px 15px;
+  border: 2px solid rgb(200, 200, 200);
+  outline: none;
+  font-size: 17px;
+  border-radius: 8px;
+  color: white;
+  background-color: #131216;
+  padding: 13px 50px;
+}
+
+form .forgot {
+  width: 100%;
+  padding-left: 23px;
+}
+
+form .forgot a {
+  color: #7E57E4;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+form .forgot a:hover {
+  text-decoration: underline;
+}
+
+form button {
+  width: 100%;
+  padding: 15px 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 8px;
+}
+
+
+
+form p {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7E57E4;
+}
+form p a {
+  text-decoration: none;
+  color: rgb(42, 148, 190);
+}
+
+form p a :hover {
+  text-decoration: underline;
+}
+
+form .box .eye {
+  display: none;
+}
+
+form .box .eye    {
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translateY(-10%);
+  cursor: pointer;
+  font-size: 25px;
+} 
+
+.abu {
+  margin-left: 3.6%;
+  position: absolute;
+  top: 20%; 
+}
+
+.abu2 {
+  margin-left: 3.5%;
+  position: absolute;
+  top: 20%; 
+}

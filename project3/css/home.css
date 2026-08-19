@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.in {
+    font-weight: 400;
+    position: absolute;
+    left: 9%;
+    top: 5%;
+}
+
+.in1 {
+    font-weight: 400;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+}
+
+.in2 {
+    font-weight: 400;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+.in3 {
+    font-weight: 400;
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+
+.in4 {
+    font-size: 26px;
+    color: #262626;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: 4.5%;
+}
+
+.img1 {
+    cursor: pointer;
+    position: absolute;
+    left: 85%;
+    top: 5%;
+}
+
+.img2 {
+    cursor: pointer;
+    position: absolute;
+    left: 88%;
+    top: 5%;
+}
+
+.img3 {
+    cursor: pointer;
+    position: absolute;
+    left: 91%;
+    top: 5%;
+}
+
+.im {
+    background-color: rgb(205, 205, 205);
+    width: 100%;
+    height: 1.5px;
+    position: absolute;
+    top: 10%;
+}
+
+.box {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin-top: 2%;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.hop {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.container {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.container2 {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%
+}
+
+
+.container3 {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%
+}
+
+.as {
+    font-size: 10px;
+    position: absolute;
+    left: 6.5%;
+    margin-top: 22%;
+}
+
+.as1 {
+    font-size: 10px;
+    position: absolute;
+    left: 36.2%;
+    margin-top: 22%;
+}
+
+.as2 {
+    font-size: 10px;
+    position: absolute;
+    left: 65.6%;
+    margin-top: 22%;
+}
+
+.as3 {
+    font-size: 10px;
+    position: absolute;
+    left: 6.6%;
+    margin-top: 22%;
+}
+
+.as4 {
+    font-size: 10px;
+    position: absolute;
+    left: 36.2%;
+    margin-top: 22%;
+}
+
+.as5 {
+    font-size: 10px;
+    position: absolute;
+    left: 65.6%;
+    margin-top: 22%;
+}
+
+
+.as6 {
+    font-size: 10px;
+    position: absolute;
+    left: 6.6%;
+    margin-top: 22%;
+}
+
+.as7 {
+    font-size: 10px;
+    position: absolute;
+    left: 36.2%;
+    margin-top: 22%;
+}
+
+.as8 {
+    font-size: 10px;
+    position: absolute;
+    left: 65.6%;
+    margin-top: 22%;
+}
+
+.bi {
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    list-style: none;
+    margin-left: 7%;
+    
+}
+
+.la {
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    position: absolute;
+    margin-top: 8%;
+}
+
+.la1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    position: absolute;
+    margin-left: 13%; 
+    margin-top: 12%;
+}
+
+.la3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 8.5%;
+}
+
+.la4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    position: absolute;
+    margin-left: 40.5%;
+    margin-top: 9%;
+}
+
+input {
+    font-weight: 400;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 50px;
+    border: 2px solid grey;
+    padding: 0px 15px;
+    margin-top: 2%;
+}
+
+.da {
+    width: 52px;
+    height: 50.5px;
+    background-color: #262626;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 1.8%;
+    cursor: pointer;
+    border: none;
+}
+
+img {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.sal {
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    gap: 45px;
+    color: #737373;
+    list-style: none;
+}
+
+.sal1 {
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
