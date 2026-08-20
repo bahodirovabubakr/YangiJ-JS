@@ -116,19 +116,19 @@
 
 
 //     //Homework 
-// let students = [
-//     {id: 1, ism: "Adrurahmon", yosh: 13, ball: 97},
-//     {id: 2, ism: "Hayotbek", yosh: 14, ball: 82},
-//     {id: 3, ism: "Ibrohim", yosh: 14, ball: 70},
-//     {id: 4, ism: "Mubosher", yosh: 12, ball: 70},
-//     {id: 5, ism: "Muhammadyusuf", yosh: 13, ball: 70},
-//     {id: 6, ism: "Azizbek", yosh: 14, ball: 75},
-//     {id: 7, ism: "Abrorbek", yosh: 14, ball: 78},
-//     {id: 8, ism: "Muhammadali", yosh: 13, ball: 70},
-//     {id: 9, ism: "Husanboy", yosh: 13, ball: 80},
-//     {id: 10, ism: "Abubakr", yosh: 14, ball: 75},
-//     {id: 11, ism: "Adbulaziz", yosh: 14, ball: 80},
-// ]
+let students = [
+    {id: 1, ism: "Adrurahmon", yosh: 13, ball: 97},
+    {id: 2, ism: "Hayotbek", yosh: 14, ball: 82},
+    {id: 3, ism: "Ibrohim", yosh: 14, ball: 70},
+    {id: 4, ism: "Mubosher", yosh: 12, ball: 70},
+    {id: 5, ism: "Muhammadyusuf", yosh: 13, ball: 70},
+    {id: 6, ism: "Azizbek", yosh: 14, ball: 75},
+    {id: 7, ism: "Abrorbek", yosh: 14, ball: 78},
+    {id: 8, ism: "Muhammadali", yosh: 13, ball: 70},
+    {id: 9, ism: "Husanboy", yosh: 13, ball: 80},
+    {id: 10, ism: "Abubakr", yosh: 14, ball: 75},
+    {id: 11, ism: "Adbulaziz", yosh: 14, ball: 80},
+]
 
 // let qoniqarli = "A'lo darajada";
 // let qoniqarsiz = "Ko'proq xarakat qilishiz kerak"
@@ -174,3 +174,33 @@
 // };
 
 // getSortData(students, "ism");
+
+// function getFileredStudents(data, limit) {
+//     return data.filter((obj) => obj.ball >= limit)
+// }
+
+// let filterArr =  getFileredStudents(students, 70);
+
+// console.log(filterArr);
+
+
+// function getUpdateStudents(data, id, changeIsm, changeBall) {
+//     return data.map((obj) => {
+//         if(obj.id === id) {
+//             obj.ism = changeIsm;
+//             obj.ball = changeBall;``
+//         }
+//         return obj;
+//     })
+// }
+
+// getUpdateStudents(students, 5, "Eshmat", 100);
+// console.log();
+
+// function deleteStudent(data, deleteId) {
+//     return data.filter((obj) => obj.id !== deleteId)
+// }
+
+// let delArr = deleteStudent(students, 6);
+// delArr = deleteStudent(delArr, 9);
+// console.log(delArr);
