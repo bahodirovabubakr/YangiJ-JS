@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-content: center;
+  font-family: sans-serif;
+  position: absolute;
+  left: 62%;
+}
+
+form {
+  width: 500px;
+  background-color:   rgb(31, 27, 27) ;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+form .close {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+form h1 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+form .close img {
+  width: 20px;
+}
+
+form .close img:hover {
+  cursor: pointer;
+}
+
+form .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  gap: 5px;
+  position: relative;
+}
+
+form .box label {
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+}
+
+form .box input {
+  padding: 15px 15px;
+  border: 2px solid rgb(200, 200, 200);
+  outline: none;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+form .forgot {
+  width: 100%;
+  padding-left: 23px;
+}
+
+form .forgot a {
+  color: rgb(42, 148, 190);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+form .forgot a:hover {
+  text-decoration: underline;
+}
+
+form button {
+  width: 100%;
+  padding: 15px 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 8px;
+}
+
+
+form p {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+form p a {
+  text-decoration: none;
+  color: rgb(42, 148, 190);
+}
+
+form p a :hover {
+  text-decoration: underline;
+}
+
+form .box .eye {
+  display: none;
+}
+
+form .box .eye{
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translateY(-10%);
+  cursor: pointer;
+  font-size: 25px;
+}
